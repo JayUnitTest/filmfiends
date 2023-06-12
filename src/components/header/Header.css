@@ -1,0 +1,64 @@
+
+  .Header {
+    background-color: #0B0C10;
+    padding: 0.5rem;
+  }
+  
+  .Header .navbar-brand {
+    color: #45A29E;
+    font-weight: bold;
+  }
+  
+  .Header .nav-link {
+    padding: 0.5rem 1rem;
+    font-size: 1.5rem;
+    color: #F4FAFF;
+    transition: transform 0.3s ease;
+  }
+  
+  .Header .nav-link:hover,
+  .Header .nav-link:focus,
+  .Header .nav-link:active {
+    transform: scale(1.1);
+    color: #45A29E;
+  }
+  
+  .Header-buttons {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .Header-buttons button {
+    margin-left: 0.5rem;
+  }
+  
+/* CSS */
+.me-2 {
+  background: linear-gradient(to bottom right, #EF4765, #FF9A5A);
+  border: 0;
+  border-radius: 12px;
+  color: #C5C6C7;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,system-ui,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 2.5;
+  outline: transparent;
+  padding: 0 1rem;
+  text-align: center;
+  text-decoration: none;
+  transition: box-shadow .2s ease-in-out;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+}
+
+.me-2:not([disabled]):focus {
+  box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(239, 71, 101, 0.5), .125rem .125rem 1rem rgba(255, 154, 90, 0.5);
+}
+
+.me-2:not([disabled]):hover {
+  box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(239, 71, 101, 0.5), .125rem .125rem 1rem rgba(255, 154, 90, 0.5);
+}
